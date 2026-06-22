@@ -56,9 +56,9 @@ build() {
     -trimpath \
     -o ${_pkgname} .
 
-  ${_pkgname} completion bash > ${_pkgname}.bash
-  ${_pkgname} completion fish > ${_pkgname}.fish
-  ${_pkgname} completion zsh > ${_pkgname}.zsh
+  ./${_pkgname} completion bash > ${_pkgname}.bash
+  ./${_pkgname} completion fish > ${_pkgname}.fish
+  ./${_pkgname} completion zsh > ${_pkgname}.zsh
 }
 
 package() {
