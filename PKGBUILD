@@ -2,7 +2,7 @@
 
 pkgname=opa-regal
 _pkgname=regal
-pkgver=0.42.0 # renovate: datasource=github-tags depName=open-policy-agent/regal extractVersion='^v?(?<version>.*)$'
+pkgver=0.43.0 # renovate: datasource=github-tags depName=open-policy-agent/regal extractVersion='^v?(?<version>.*)$'
 pkgrel=1
 pkgdesc="Regal is a linter and language server for Rego"
 arch=('armv7h' 'aarch64' 'x86_64')
